@@ -345,8 +345,8 @@
     <sizescale/>
   </renderer-v2>
   <labeling type="rule-based">
-    <rules key="{d381f7a4-dd7a-4847-8ee0-bb1543c40f0f}">
-      <rule filter="fclass IN ('suburb')" scalemaxdenom="50000" scalemindenom="10000" key="{87655faa-3a0f-4e3d-a530-592c3dc908f8}" description="suburb 1">
+    <rules key="{d43812a2-538e-4f04-9165-329b420bcf4d}">
+      <rule filter="fclass IN ('suburb', 'neighbourhood')" scalemaxdenom="50000" scalemindenom="10000" key="{9ce29eb5-15f3-485a-80e1-1280a5777648}" description="suburb 1">
         <settings>
           <text-style fontSize="9" fontSizeUnit="Point" previewBkgrdColor="#ffffff" fontFamily="Noto Sans" namedStyle="Regular" fontWeight="50" fontCapitals="1" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" useSubstitutions="0" fontUnderline="0" fontWordSpacing="0" blendMode="0" textOpacity="1" fieldName="name" fontLetterSpacing="0" textColor="124,124,124,255" fontItalic="0" fontStrikeout="0" isExpression="0">
             <text-buffer bufferSize="0.7" bufferJoinStyle="64" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="0" bufferOpacity="1"/>
@@ -366,7 +366,27 @@
           </dd_properties>
         </settings>
       </rule>
-      <rule filter="fclass IN ('city')" scalemaxdenom="200000" scalemindenom="50000" key="{dd03fbbd-a0a6-4d67-88b9-1bdc4bf1f058}" description="city">
+      <rule filter="fclass IN ('suburb', 'neighbourhood')" scalemaxdenom="75000" scalemindenom="50000" key="{40f51cb6-3d2e-4a9d-8e0e-a3c6ee0dba64}" description="suburb 2">
+        <settings>
+          <text-style fontSize="7" fontSizeUnit="Point" previewBkgrdColor="#ffffff" fontFamily="Noto Sans" namedStyle="Regular" fontWeight="50" fontCapitals="0" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" useSubstitutions="0" fontUnderline="0" fontWordSpacing="0" blendMode="0" textOpacity="1" fieldName="name" fontLetterSpacing="0" textColor="124,124,124,255" fontItalic="0" fontStrikeout="0" isExpression="0">
+            <text-buffer bufferSize="0.7" bufferJoinStyle="64" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="0" bufferOpacity="1"/>
+            <background shapeType="0" shapeBorderWidthUnit="MM" shapeRotationType="0" shapeRadiiUnit="MM" shapeRadiiX="0" shapeSizeUnit="MM" shapeBorderWidth="0" shapeJoinStyle="64" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiY="0" shapeOpacity="1" shapeRotation="0" shapeOffsetY="0" shapeFillColor="255,255,255,255" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeBlendMode="0" shapeDraw="0" shapeSizeX="0" shapeOffsetX="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeSizeY="0" shapeSizeType="0" shapeOffsetUnit="MM"/>
+            <shadow shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowRadiusAlphaOnly="0" shadowOpacity="0.7" shadowScale="100" shadowDraw="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetUnit="MM" shadowOffsetDist="1" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetAngle="135" shadowRadiusUnit="MM" shadowBlendMode="6" shadowUnder="0" shadowRadius="1.5"/>
+            <substitutions/>
+          </text-style>
+          <text-format autoWrapLength="0" wrapChar="" placeDirectionSymbol="0" decimals="3" reverseDirectionSymbol="0" plussign="0" multilineAlign="0" rightDirectionSymbol=">" addDirectionSymbol="0" leftDirectionSymbol="&lt;" useMaxLineLengthForAutoWrap="1" formatNumbers="0"/>
+          <placement placementFlags="10" quadOffset="4" rotationAngle="0" distUnits="MM" dist="0" offsetUnits="MapUnit" placement="1" centroidWhole="0" offsetType="0" fitInPolygonOnly="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" distMapUnitScale="3x:0,0,0,0,0,0" preserveRotation="1" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" yOffset="0" repeatDistanceUnits="MM" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" centroidInside="0" maxCurvedCharAngleIn="20" repeatDistance="0" xOffset="0" priority="5" maxCurvedCharAngleOut="-20"/>
+          <rendering fontLimitPixelSize="0" scaleVisibility="0" zIndex="0" fontMaxPixelSize="10000" obstacleType="0" maxNumLabels="2000" obstacleFactor="1" fontMinPixelSize="3" mergeLines="0" minFeatureSize="0" displayAll="0" scaleMax="10000000" drawLabels="1" labelPerPart="0" limitNumLabels="0" upsidedownLabels="0" obstacle="1" scaleMin="1"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </dd_properties>
+        </settings>
+      </rule>
+      <rule filter="fclass IN ('city')" scalemaxdenom="200000" scalemindenom="50000" key="{88a18e3c-b1e2-46fc-b565-ee37de3c0275}" description="city 1">
         <settings>
           <text-style fontSize="11" fontSizeUnit="Point" previewBkgrdColor="#ffffff" fontFamily="Noto Sans" namedStyle="Regular" fontWeight="50" fontCapitals="0" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" useSubstitutions="0" fontUnderline="0" fontWordSpacing="0" blendMode="0" textOpacity="1" fieldName="name" fontLetterSpacing="2" textColor="73,73,73,255" fontItalic="0" fontStrikeout="0" isExpression="0">
             <text-buffer bufferSize="1" bufferJoinStyle="64" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="0" bufferOpacity="1"/>
@@ -386,7 +406,7 @@
           </dd_properties>
         </settings>
       </rule>
-      <rule filter="fclass IN ('city')" scalemaxdenom="400000" scalemindenom="200000" key="{055c6ff5-d2b7-44a1-a602-9bb80385defd}" description="city">
+      <rule filter="fclass IN ('city')" scalemaxdenom="400000" scalemindenom="200000" key="{50a0e327-a30f-40d5-9120-63a311f925ea}" description="city 2">
         <settings>
           <text-style fontSize="10" fontSizeUnit="Point" previewBkgrdColor="#ffffff" fontFamily="Noto Sans" namedStyle="Regular" fontWeight="50" fontCapitals="0" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" useSubstitutions="0" fontUnderline="0" fontWordSpacing="0" blendMode="0" textOpacity="1" fieldName="name" fontLetterSpacing="0" textColor="73,73,73,255" fontItalic="0" fontStrikeout="0" isExpression="0">
             <text-buffer bufferSize="1" bufferJoinStyle="64" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="0" bufferOpacity="1"/>
@@ -406,7 +426,7 @@
           </dd_properties>
         </settings>
       </rule>
-      <rule filter="fclass IN ('town')" scalemaxdenom="200000" scalemindenom="50000" key="{2d5b9bac-951b-43bb-8f53-06f81391b316}" description="town">
+      <rule filter="fclass IN ('town')" scalemaxdenom="200000" scalemindenom="50000" key="{7cf6798d-5ef0-44ba-883f-f633191e89db}" description="town 1">
         <settings>
           <text-style fontSize="9" fontSizeUnit="Point" previewBkgrdColor="#ffffff" fontFamily="Noto Sans" namedStyle="Regular" fontWeight="50" fontCapitals="0" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" useSubstitutions="0" fontUnderline="0" fontWordSpacing="0" blendMode="0" textOpacity="1" fieldName="name" fontLetterSpacing="0" textColor="96,96,96,255" fontItalic="0" fontStrikeout="0" isExpression="0">
             <text-buffer bufferSize="1" bufferJoinStyle="64" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="0" bufferOpacity="1"/>
@@ -426,7 +446,7 @@
           </dd_properties>
         </settings>
       </rule>
-      <rule filter="fclass IN ('town')" scalemaxdenom="400000" scalemindenom="200000" key="{c57a963c-6358-47f5-b516-66f32a434eee}" description="town">
+      <rule filter="fclass IN ('town')" scalemaxdenom="400000" scalemindenom="200000" key="{b7a91c47-7eaf-4b68-abb9-f849e67947da}" description="town 2">
         <settings>
           <text-style fontSize="8" fontSizeUnit="Point" previewBkgrdColor="#ffffff" fontFamily="Noto Sans" namedStyle="Regular" fontWeight="50" fontCapitals="0" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" useSubstitutions="0" fontUnderline="0" fontWordSpacing="0" blendMode="0" textOpacity="1" fieldName="name" fontLetterSpacing="0" textColor="96,96,96,255" fontItalic="0" fontStrikeout="0" isExpression="0">
             <text-buffer bufferSize="1" bufferJoinStyle="64" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="0" bufferOpacity="1"/>
@@ -446,7 +466,7 @@
           </dd_properties>
         </settings>
       </rule>
-      <rule filter="fclass IN ('village')" scalemaxdenom="200000" scalemindenom="25000" key="{b8f8beb0-7d7a-4628-9b9c-a75e0a85798b}" description="village">
+      <rule filter="fclass IN ('village')" scalemaxdenom="200000" scalemindenom="25000" key="{1fe911d4-e2dc-47e4-96bc-5c9ad20a7f1c}" description="village">
         <settings>
           <text-style fontSize="7" fontSizeUnit="Point" previewBkgrdColor="#ffffff" fontFamily="Noto Sans" namedStyle="Regular" fontWeight="50" fontCapitals="0" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" useSubstitutions="0" fontUnderline="0" fontWordSpacing="0" blendMode="0" textOpacity="1" fieldName="name" fontLetterSpacing="0" textColor="96,96,96,255" fontItalic="0" fontStrikeout="0" isExpression="0">
             <text-buffer bufferSize="1" bufferJoinStyle="64" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="0" bufferOpacity="1"/>
@@ -479,6 +499,7 @@
   <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
     <DiagramCategory width="15" maxScaleDenominator="1e+08" diagramOrientation="Up" scaleBasedVisibility="0" minScaleDenominator="0" scaleDependency="Area" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" sizeType="MM" penAlpha="255" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" height="15" penWidth="0" backgroundColor="#ffffff" backgroundAlpha="255" barWidth="5" lineSizeType="MM" opacity="1" enabled="0" minimumSize="0" rotationOffset="270">
       <fontProperties style="" description="Noto Sans,9,-1,5,50,0,0,0,0,0"/>
+      <attribute field="" label="" color="#000000"/>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
   <DiagramLayerSettings linePlacementFlags="18" zIndex="0" placement="0" dist="0" obstacle="0" priority="0" showAll="1">
