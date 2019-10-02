@@ -1,7 +1,7 @@
 OSM Shapefile QGIS stylesheets
 ==============================
 
-These are my QGIS stylesheets for OpenStreetMap (OSM) in ESRI Shapefile format downloaded from [Geofabrik](http://download.geofabrik.de/) and land polygons from [OpenStreetMapData](http://openstreetmapdata.com/data/land-polygons)
+These are my QGIS stylesheets for OpenStreetMap (OSM) in ESRI Shapefile format downloaded from [Geofabrik](http://download.geofabrik.de/) and land polygons from [OpenStreetMapData](https://osmdata.openstreetmap.de/data/land-polygons.html)
 
 This is a fork of [OSM Shapefile QGIS stylesheets](https://github.com/charleyglynn/OSM-Shapefile-QGIS-stylesheets) by [Charley Glynn](https://github.com/charleyglynn).
 
